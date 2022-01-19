@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+    padding-bottom: 250px;
+}
+.header{
+    background-image: url(./images/OiIPMSBXmz2VNMQ.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 70%;
+    padding-bottom: 80px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.h-top-image{
+    width: 15%;
+    animation-name: Mosque;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-direction: alternate-reverse;
+}
+.header-top .h-top-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-top-title{
+    position: relative;
+    left: -5%;
+}
+.h-img{
+    width: 28px;
+    position: relative;
+    top: 21%;
+    left: 20%;
+}
+.h-img:hover{
+    animation-name: linkHover;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.h-bottom{
+position: relative;
+left: 290px;
+top: 100px;
+background-color: lightgray;
+width: 600px;
+}
+.h-bottom-list{
+    text-align: center;
+}
+.h-bottom-list{
+    padding: 10px;
+}
+.h-bottom-title{
+    font-size: 35px;
+}
+.h-link{
+    margin: 7px;
+    width: 50px;
+    height: 50px;
+    background: whitesmoke;
+    
+    border-radius: 50px;
+    
+}
+.h-link:hover{
+    background: lightgrey;
+    transition: 0.5s;
+   
+    
+}
+.header-bottom{
+    animation-name: header;
+    animation-duration: 2s;
+}
+ @keyframes header{
+    from{
+        transform: translateY(200px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+ }
+ @keyframes linkHover{
+     from{
+         transform: scale(0.5);
+     }
+     to{
+         transform: scale(1.2);
+     }
+ }
+ @keyframes Mosque{
+     fro{
+         transform: scale(0.5);
+     }
+     to{
+         transform: scale(1.2)
+     }
+ }
+
+ .h-footer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     bottom: -320px;
+ }
+ .h-footer-list{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: lightsteelblue;
+     width: 1140px;
+     height: 50px;
+    }
+    .h-footer-list{
+        border: 2px solid grey;
+    }
+    .h-footer-item{
+        height: 42px;
+        width: fit-content;
+        padding: 10px;
+    }
+    .h-footer-item:hover{
+        background: whitesmoke;
+       
+    }
+.h-footer-link{
+    font-size: 20px;
+}
