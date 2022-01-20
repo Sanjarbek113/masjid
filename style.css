@@ -279,8 +279,6 @@ width: 600px;
     padding-bottom: 20px;
     margin: 10px;
     padding: 10px;
-    
-    
     background: yellow;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
@@ -299,10 +297,53 @@ width: 600px;
     text-align:  center;
 }
 .g-major{
+
     border: 2px solid black;
+    border-style:dotted;
     border-top: none;
     border-left: none;
     border-bottom: none;
     border-width: 2px;
+    
+}
+body{
+    background-color: lightgoldenrodyellow;
 }
 
+.card-img{
+    width: 400px;
+}
+.card-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-list{
+    width: 72%;
+    text-align: center;
+}
+.card-subtitle{
+    text-align: right;
+}
+.card{
+    margin-top: 100px;
+}
+.card-item{
+    margin-bottom: 10px;
+}
+.footer{
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: darkslateblue;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-item{
+    line-height: 40px;
+}
+.footer-text{
+    color: whitesmoke;
+}
